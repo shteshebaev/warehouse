@@ -130,15 +130,29 @@ export function LoginPage() {
             <p className="text-xs text-center text-light-text-secondary dark:text-dark-text-secondary mb-3">
               Demo Credentials
             </p>
-            <div className="space-y-2 text-xs text-light-text-secondary dark:text-dark-text-secondary">
-              <div className="flex justify-between p-2 bg-light-separator/50 dark:bg-dark-separator/50 rounded-ios">
-                <span>Admin:</span>
-                <span className="font-mono">admin@warehouse.com / admin123</span>
-              </div>
-              <div className="flex justify-between p-2 bg-light-separator/50 dark:bg-dark-separator/50 rounded-ios">
-                <span>Manager:</span>
-                <span className="font-mono">manager@warehouse.com / manager123</span>
-              </div>
+            <div className="space-y-2 text-xs">
+              <button
+                type="button"
+                onClick={() => {
+                  setEmail('admin@warehouse.com')
+                  setPassword('admin123')
+                }}
+                className="w-full flex justify-between p-3 bg-light-separator/50 dark:bg-[#252528] rounded-ios-lg hover:bg-light-separator dark:hover:bg-[#2a2a2d] transition-colors text-left"
+              >
+                <span className="text-light-text-secondary dark:text-dark-text-secondary">Admin:</span>
+                <span className="font-mono text-light-text dark:text-dark-text">admin@warehouse.com</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setEmail('manager@warehouse.com')
+                  setPassword('manager123')
+                }}
+                className="w-full flex justify-between p-3 bg-light-separator/50 dark:bg-[#252528] rounded-ios-lg hover:bg-light-separator dark:hover:bg-[#2a2a2d] transition-colors text-left"
+              >
+                <span className="text-light-text-secondary dark:text-dark-text-secondary">Manager:</span>
+                <span className="font-mono text-light-text dark:text-dark-text">manager@warehouse.com</span>
+              </button>
             </div>
           </div>
         </div>
