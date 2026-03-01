@@ -1,0 +1,6 @@
+export { DashboardPage } from './DashboardPage'
+export { ProductsPage } from './ProductsPage'
+export { PurchasesPage } from './PurchasesPage'
+export { ExpensesPage } from './ExpensesPage'
+export { HistoryPage } from './HistoryPage'
+export { AnalyticsPage } from './AnalyticsPage'
