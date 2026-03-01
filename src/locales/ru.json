@@ -1,0 +1,170 @@
+{
+  "common": {
+    "appName": "Склад",
+    "loading": "Загрузка...",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Изменить",
+    "add": "Добавить",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "export": "Экспорт",
+    "all": "Все",
+    "yes": "Да",
+    "no": "Нет",
+    "confirm": "Подтвердить",
+    "close": "Закрыть",
+    "actions": "Действия",
+    "noData": "Нет данных",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "warning": "Внимание"
+  },
+  "auth": {
+    "login": "Вход",
+    "logout": "Выход",
+    "email": "Email",
+    "password": "Пароль",
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?",
+    "loginButton": "Войти",
+    "loginError": "Неверный email или пароль",
+    "welcomeBack": "С возвращением",
+    "signInToContinue": "Войдите, чтобы продолжить работу со Складом"
+  },
+  "nav": {
+    "dashboard": "Главная",
+    "products": "Товары",
+    "purchases": "Закупки",
+    "expenses": "Расходы",
+    "history": "История",
+    "analytics": "Аналитика",
+    "settings": "Настройки"
+  },
+  "dashboard": {
+    "title": "Главная",
+    "totalStock": "Общий остаток",
+    "stockValue": "Стоимость склада",
+    "totalRevenue": "Общий доход",
+    "totalExpenses": "Общие расходы",
+    "profit": "Прибыль",
+    "lowStockAlert": "Низкий остаток",
+    "recentTransactions": "Последние операции",
+    "quickActions": "Быстрые действия",
+    "items": "единиц",
+    "products": "товаров"
+  },
+  "products": {
+    "title": "Товары",
+    "addProduct": "Добавить товар",
+    "editProduct": "Редактировать товар",
+    "productCode": "Код товара",
+    "productName": "Название",
+    "unit": "Единица измерения",
+    "barcode": "Штрих-код",
+    "category": "Категория",
+    "minStock": "Минимальный остаток",
+    "currentStock": "Текущий остаток",
+    "avgCost": "Средняя себестоимость",
+    "totalValue": "Общая стоимость",
+    "photo": "Фото",
+    "deleteConfirm": "Вы уверены, что хотите удалить этот товар?",
+    "searchPlaceholder": "Поиск товаров...",
+    "noProducts": "Товары не найдены",
+    "addFirstProduct": "Добавьте первый товар, чтобы начать работу",
+    "units": {
+      "pcs": "шт",
+      "kg": "кг",
+      "l": "л",
+      "m": "м",
+      "box": "коробка"
+    },
+    "stockStatus": {
+      "low": "Мало",
+      "medium": "Средне",
+      "good": "В наличии"
+    }
+  },
+  "purchases": {
+    "title": "Закупки",
+    "addPurchase": "Добавить закупку",
+    "selectProduct": "Выберите товар",
+    "quantity": "Количество",
+    "unitCost": "Цена за единицу",
+    "totalCost": "Общая сумма",
+    "supplier": "Поставщик",
+    "date": "Дата",
+    "comment": "Комментарий",
+    "purchaseAdded": "Закупка добавлена",
+    "noPurchases": "Закупки не найдены"
+  },
+  "expenses": {
+    "title": "Расходы",
+    "addExpense": "Добавить расход",
+    "selectProduct": "Выберите товар",
+    "quantity": "Количество",
+    "salePrice": "Цена продажи",
+    "expenseType": "Тип расхода",
+    "client": "Клиент",
+    "date": "Дата",
+    "comment": "Комментарий",
+    "profit": "Прибыль",
+    "expenseAdded": "Расход добавлен",
+    "noExpenses": "Расходы не найдены",
+    "types": {
+      "sale": "Продажа",
+      "damage": "Порча",
+      "personal": "Личное использование",
+      "return": "Возврат"
+    }
+  },
+  "history": {
+    "title": "История операций",
+    "allTransactions": "Все операции",
+    "filterByDate": "По дате",
+    "filterByProduct": "По товару",
+    "filterByType": "По типу",
+    "exportExcel": "Экспорт в Excel",
+    "noTransactions": "Операции не найдены",
+    "transactionTypes": {
+      "purchase": "Закупка",
+      "expense": "Расход"
+    }
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "financialSummary": "Финансовая сводка",
+    "stockOverview": "Обзор склада",
+    "categoryBreakdown": "По категориям",
+    "period": "Период",
+    "thisMonth": "Этот месяц",
+    "lastMonth": "Прошлый месяц",
+    "thisYear": "Этот год",
+    "custom": "Произвольный"
+  },
+  "settings": {
+    "title": "Настройки",
+    "language": "Язык",
+    "theme": "Тема",
+    "lightMode": "Светлая тема",
+    "darkMode": "Темная тема",
+    "systemTheme": "Системная"
+  },
+  "validation": {
+    "required": "Это поле обязательно",
+    "invalidEmail": "Неверный email адрес",
+    "minLength": "Минимум {{min}} символов",
+    "maxLength": "Максимум {{max}} символов",
+    "positiveNumber": "Должно быть положительным числом",
+    "insufficientStock": "Недостаточно товара на складе"
+  },
+  "notifications": {
+    "productAdded": "Товар успешно добавлен",
+    "productUpdated": "Товар успешно обновлен",
+    "productDeleted": "Товар успешно удален",
+    "purchaseAdded": "Закупка успешно записана",
+    "expenseAdded": "Расход успешно записан",
+    "operationFailed": "Операция не выполнена. Попробуйте снова."
+  }
+}

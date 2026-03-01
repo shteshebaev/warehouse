@@ -1,0 +1,170 @@
+{
+  "common": {
+    "appName": "Ombor",
+    "loading": "Yuklanmoqda...",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "add": "Qo'shish",
+    "search": "Qidirish",
+    "filter": "Filtr",
+    "export": "Eksport",
+    "all": "Hammasi",
+    "yes": "Ha",
+    "no": "Yo'q",
+    "confirm": "Tasdiqlash",
+    "close": "Yopish",
+    "actions": "Amallar",
+    "noData": "Ma'lumot yo'q",
+    "error": "Xato",
+    "success": "Muvaffaqiyatli",
+    "warning": "Ogohlantirish"
+  },
+  "auth": {
+    "login": "Kirish",
+    "logout": "Chiqish",
+    "email": "Email",
+    "password": "Parol",
+    "rememberMe": "Eslab qolish",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "loginButton": "Kirish",
+    "loginError": "Email yoki parol noto'g'ri",
+    "welcomeBack": "Xush kelibsiz",
+    "signInToContinue": "Omborga kirish uchun tizimga kiring"
+  },
+  "nav": {
+    "dashboard": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "purchases": "Xaridlar",
+    "expenses": "Chiqimlar",
+    "history": "Tarix",
+    "analytics": "Tahlil",
+    "settings": "Sozlamalar"
+  },
+  "dashboard": {
+    "title": "Bosh sahifa",
+    "totalStock": "Umumiy qoldiq",
+    "stockValue": "Ombor qiymati",
+    "totalRevenue": "Umumiy daromad",
+    "totalExpenses": "Umumiy chiqimlar",
+    "profit": "Foyda",
+    "lowStockAlert": "Kam qoldiq",
+    "recentTransactions": "So'nggi operatsiyalar",
+    "quickActions": "Tezkor amallar",
+    "items": "dona",
+    "products": "mahsulot"
+  },
+  "products": {
+    "title": "Mahsulotlar",
+    "addProduct": "Mahsulot qo'shish",
+    "editProduct": "Mahsulotni tahrirlash",
+    "productCode": "Mahsulot kodi",
+    "productName": "Nomi",
+    "unit": "O'lchov birligi",
+    "barcode": "Shtrix-kod",
+    "category": "Kategoriya",
+    "minStock": "Minimal qoldiq",
+    "currentStock": "Joriy qoldiq",
+    "avgCost": "O'rtacha tannarx",
+    "totalValue": "Umumiy qiymat",
+    "photo": "Rasm",
+    "deleteConfirm": "Ushbu mahsulotni o'chirishni xohlaysizmi?",
+    "searchPlaceholder": "Mahsulotlarni qidirish...",
+    "noProducts": "Mahsulotlar topilmadi",
+    "addFirstProduct": "Boshlash uchun birinchi mahsulotni qo'shing",
+    "units": {
+      "pcs": "dona",
+      "kg": "kg",
+      "l": "l",
+      "m": "m",
+      "box": "quti"
+    },
+    "stockStatus": {
+      "low": "Kam",
+      "medium": "O'rtacha",
+      "good": "Mavjud"
+    }
+  },
+  "purchases": {
+    "title": "Xaridlar",
+    "addPurchase": "Xarid qo'shish",
+    "selectProduct": "Mahsulotni tanlang",
+    "quantity": "Miqdor",
+    "unitCost": "Birlik narxi",
+    "totalCost": "Umumiy summa",
+    "supplier": "Yetkazib beruvchi",
+    "date": "Sana",
+    "comment": "Izoh",
+    "purchaseAdded": "Xarid qo'shildi",
+    "noPurchases": "Xaridlar topilmadi"
+  },
+  "expenses": {
+    "title": "Chiqimlar",
+    "addExpense": "Chiqim qo'shish",
+    "selectProduct": "Mahsulotni tanlang",
+    "quantity": "Miqdor",
+    "salePrice": "Sotish narxi",
+    "expenseType": "Chiqim turi",
+    "client": "Mijoz",
+    "date": "Sana",
+    "comment": "Izoh",
+    "profit": "Foyda",
+    "expenseAdded": "Chiqim qo'shildi",
+    "noExpenses": "Chiqimlar topilmadi",
+    "types": {
+      "sale": "Sotuv",
+      "damage": "Buzilish",
+      "personal": "Shaxsiy foydalanish",
+      "return": "Qaytarish"
+    }
+  },
+  "history": {
+    "title": "Operatsiyalar tarixi",
+    "allTransactions": "Barcha operatsiyalar",
+    "filterByDate": "Sana bo'yicha",
+    "filterByProduct": "Mahsulot bo'yicha",
+    "filterByType": "Tur bo'yicha",
+    "exportExcel": "Excelga eksport",
+    "noTransactions": "Operatsiyalar topilmadi",
+    "transactionTypes": {
+      "purchase": "Xarid",
+      "expense": "Chiqim"
+    }
+  },
+  "analytics": {
+    "title": "Tahlil",
+    "financialSummary": "Moliyaviy hisobot",
+    "stockOverview": "Ombor holati",
+    "categoryBreakdown": "Kategoriyalar bo'yicha",
+    "period": "Davr",
+    "thisMonth": "Bu oy",
+    "lastMonth": "O'tgan oy",
+    "thisYear": "Bu yil",
+    "custom": "Boshqa"
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "language": "Til",
+    "theme": "Mavzu",
+    "lightMode": "Yorug' rejim",
+    "darkMode": "Qorong'u rejim",
+    "systemTheme": "Tizim"
+  },
+  "validation": {
+    "required": "Bu maydon to'ldirilishi shart",
+    "invalidEmail": "Email noto'g'ri",
+    "minLength": "Kamida {{min}} belgi kerak",
+    "maxLength": "Ko'pi bilan {{max}} belgi",
+    "positiveNumber": "Musbat son bo'lishi kerak",
+    "insufficientStock": "Omborda yetarli mahsulot yo'q"
+  },
+  "notifications": {
+    "productAdded": "Mahsulot muvaffaqiyatli qo'shildi",
+    "productUpdated": "Mahsulot muvaffaqiyatli yangilandi",
+    "productDeleted": "Mahsulot muvaffaqiyatli o'chirildi",
+    "purchaseAdded": "Xarid muvaffaqiyatli yozildi",
+    "expenseAdded": "Chiqim muvaffaqiyatli yozildi",
+    "operationFailed": "Amal bajarilmadi. Qaytadan urinib ko'ring."
+  }
+}

@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-light-bg text-light-text transition-colors duration-300;
+  }
+
+  .dark body,
+  body.dark,
+  html.dark,
+  html.dark body {
+    background-color: #161618;
+    color: #F5F5F7;
+  }
+
+  /* iOS-style scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-light-separator rounded-full;
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    @apply bg-dark-separator;
+  }
+
+  /* Hide scrollbar for mobile */
+  @media (max-width: 768px) {
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+@layer components {
+  /* Glass effect for cards */
+  .glass {
+    @apply backdrop-blur-ios bg-light-card border border-light-border;
+  }
+
+  .dark .glass {
+    background-color: rgba(37, 37, 40, 0.9);
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  /* iOS-style card */
+  .ios-card {
+    @apply glass rounded-ios-xl shadow-ios p-4;
+  }
+
+  /* iOS-style button */
+  .ios-button {
+    @apply inline-flex items-center justify-center px-4 py-2.5 rounded-ios-lg font-medium transition-all duration-200 active:scale-95;
+  }
+
+  .ios-button-primary {
+    @apply ios-button bg-ios-blue text-white hover:bg-ios-blue/90;
+  }
+
+  .ios-button-secondary {
+    @apply ios-button bg-light-card text-light-text hover:bg-light-separator;
+  }
+
+  .dark .ios-button-secondary {
+    @apply bg-dark-card text-dark-text hover:bg-dark-separator;
+  }
+
+  /* iOS-style input */
+  .ios-input {
+    @apply w-full px-4 py-3 rounded-ios-lg bg-light-card border border-light-border text-light-text placeholder-light-text-secondary focus:outline-none focus:ring-2 focus:ring-ios-blue/50 focus:border-ios-blue transition-all duration-200;
+  }
+
+  .dark .ios-input {
+    @apply bg-dark-card border-dark-border text-dark-text placeholder-dark-text-secondary;
+  }
+
+  /* Stock status badges */
+  .badge-low {
+    @apply bg-ios-red/10 text-ios-red;
+  }
+
+  .badge-medium {
+    @apply bg-ios-orange/10 text-ios-orange;
+  }
+
+  .badge-good {
+    @apply bg-ios-green/10 text-ios-green;
+  }
+
+  /* Safe area padding for mobile */
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .safe-area-top {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+@layer utilities {
+  /* Hide number input spinners */
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  /* Line clamp */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
