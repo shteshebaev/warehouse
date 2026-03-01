@@ -33,7 +33,7 @@ export function Header({ onMenuClick, onSearchClick }: HeaderProps) {
   }
 
   return (
-    <header className="sticky top-0 z-40 h-16 px-4 flex items-center justify-between bg-light-bg/80 dark:bg-dark-bg/80 backdrop-blur-ios border-b border-light-border dark:border-dark-border">
+    <header className="sticky top-0 z-40 h-16 px-4 flex items-center justify-between bg-light-bg/80 dark:bg-[#161618]/90 backdrop-blur-ios border-b border-light-border dark:border-[rgba(255,255,255,0.08)]">
       {/* Left side */}
       <div className="flex items-center gap-3">
         {/* Mobile menu button */}

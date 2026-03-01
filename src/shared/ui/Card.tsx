@@ -31,12 +31,12 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
     const baseStyles = `
       rounded-ios-xl
       ${variant === 'glass'
-        ? 'backdrop-blur-ios bg-light-card/80 dark:bg-dark-card/80'
-        : 'bg-light-card dark:bg-dark-card'
+        ? 'backdrop-blur-ios bg-light-card/80 dark:bg-[#252528]/90'
+        : 'bg-light-card dark:bg-[#252528]'
       }
-      border border-light-border dark:border-dark-border
-      shadow-ios
-      ${hover ? 'transition-all duration-200 hover:shadow-ios-lg hover:-translate-y-0.5' : ''}
+      border border-light-border dark:border-[rgba(255,255,255,0.08)]
+      shadow-ios dark:shadow-none
+      ${hover ? 'transition-all duration-200 hover:shadow-ios-lg dark:hover:shadow-none hover:-translate-y-0.5' : ''}
       ${paddingStyles[padding]}
       ${className}
     `

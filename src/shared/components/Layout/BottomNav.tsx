@@ -21,7 +21,7 @@ export function BottomNav() {
   const { t } = useTranslation()
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-light-card/95 dark:bg-dark-card/95 backdrop-blur-ios border-t border-light-border dark:border-dark-border safe-area-bottom">
+    <nav className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-light-card/95 dark:bg-[#1E1E20]/95 backdrop-blur-ios border-t border-light-border dark:border-[rgba(255,255,255,0.08)] safe-area-bottom">
       <ul className="flex items-center justify-around h-16 px-2">
         {navItems.map(item => {
           const Icon = item.icon

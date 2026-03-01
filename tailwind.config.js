@@ -29,14 +29,15 @@ export default {
           border: 'rgba(60, 60, 67, 0.1)',
           separator: 'rgba(60, 60, 67, 0.36)',
         },
-        // Dark theme
+        // Dark theme (Premium soft dark)
         dark: {
-          bg: '#000000',
-          card: 'rgba(28, 28, 30, 0.8)',
-          text: '#FFFFFF',
-          'text-secondary': '#8E8E93',
-          border: 'rgba(84, 84, 88, 0.65)',
-          separator: 'rgba(84, 84, 88, 0.65)',
+          bg: '#161618',
+          'bg-elevated': '#1E1E20',
+          card: '#252528',
+          text: '#F5F5F7',
+          'text-secondary': '#A1A1A6',
+          border: 'rgba(255, 255, 255, 0.08)',
+          separator: 'rgba(255, 255, 255, 0.12)',
         },
       },
       borderRadius: {

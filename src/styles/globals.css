@@ -18,16 +18,11 @@
   }
 
   .dark body,
-  body.dark {
-    @apply bg-dark-bg text-dark-text;
-  }
-
-  html.dark {
-    @apply bg-dark-bg;
-  }
-
+  body.dark,
+  html.dark,
   html.dark body {
-    @apply bg-dark-bg text-dark-text;
+    background-color: #161618;
+    color: #F5F5F7;
   }
 
   /* iOS-style scrollbar */
@@ -63,7 +58,8 @@
   }
 
   .dark .glass {
-    @apply bg-dark-card border-dark-border;
+    background-color: rgba(37, 37, 40, 0.9);
+    border-color: rgba(255, 255, 255, 0.08);
   }
 
   /* iOS-style card */

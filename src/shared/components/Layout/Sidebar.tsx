@@ -57,8 +57,8 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
         className={`
           fixed lg:static inset-y-0 left-0 z-50
           w-[280px] h-screen
-          bg-light-bg dark:bg-dark-bg
-          border-r border-light-border dark:border-dark-border
+          bg-light-bg dark:bg-[#1E1E20]
+          border-r border-light-border dark:border-[rgba(255,255,255,0.08)]
           flex flex-col
           lg:translate-x-0
         `}
