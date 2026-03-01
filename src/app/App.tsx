@@ -22,6 +22,8 @@ const queryClient = new QueryClient({
   },
 })
 
+
+
 // Protected Route Component
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isAuthenticated } = useAuthStore()
